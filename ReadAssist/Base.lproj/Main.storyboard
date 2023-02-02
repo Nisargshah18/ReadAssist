@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kv0-T0-BeK">
-                                <rect key="frame" x="98" y="461" width="52" height="35"/>
+                                <rect key="frame" x="170.66666666666666" y="461" width="52" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="Kv0-T0-BeK" secondAttribute="height" multiplier="52:35" id="Z5g-XP-pkv"/>
                                 </constraints>
@@ -30,7 +30,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Start Read Assist" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sY4-hS-L0l">
-                                <rect key="frame" x="101" y="412" width="190" height="28"/>
+                                <rect key="frame" x="101.66666666666669" y="412" width="190" height="28"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="190" id="05u-MU-YA0"/>
                                     <constraint firstAttribute="height" constant="28" id="3Qt-v3-1fo"/>
@@ -45,6 +45,7 @@
                         <constraints>
                             <constraint firstItem="sY4-hS-L0l" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4PT-PY-ljI"/>
                             <constraint firstItem="Kv0-T0-BeK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="VWu-sg-E6s"/>
+                            <constraint firstItem="Kv0-T0-BeK" firstAttribute="top" secondItem="sY4-hS-L0l" secondAttribute="bottom" constant="21" id="qN6-Tk-jH1"/>
                             <constraint firstItem="sY4-hS-L0l" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ykD-Ed-lRC"/>
                         </constraints>
                     </view>

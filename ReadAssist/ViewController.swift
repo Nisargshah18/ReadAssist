@@ -8,6 +8,7 @@
 import UIKit
 import Photos
 import PhotosUI
+import TesseractOCR
 
 class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
 
@@ -29,5 +30,9 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         UIImageView.image = image
         dismiss(animated: true)
         
+        
     }
+    
+    
+    
 }
